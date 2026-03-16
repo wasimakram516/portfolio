@@ -52,22 +52,23 @@ export default function Preloader() {
           />
 
           {/* Signature name — clip-path write-on effect */}
-          <Box sx={{ position: 'relative', textAlign: 'center' }}>
+          <Box sx={{ position: 'relative', textAlign: 'center', px: { xs: 2, sm: 4 }, width: '100%', maxWidth: { xs: '100vw', sm: 'none' }, boxSizing: 'border-box' }}>
             <motion.div
               initial={{ clipPath: 'inset(0 100% 0 0)' }}
               animate={{ clipPath: 'inset(0 0% 0 0)' }}
               transition={{ duration: 1.2, ease: [0.4, 0, 0.2, 1] }}
             >
-              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: 1 }}>
+              <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: { xs: 0.5, sm: 1 }, flexWrap: 'nowrap', overflow: 'hidden' }}>
                 <Typography
                   component="span"
                   sx={{
                     fontFamily: 'Inter, system-ui, sans-serif',
                     fontWeight: 300,
-                    fontSize: { xs: '1.6rem', sm: '2.2rem', md: '2.8rem' },
+                    fontSize: { xs: '1.1rem', sm: '1.8rem', md: '2.8rem' },
                     color: '#00d4ff',
                     lineHeight: 1,
                     opacity: 0.85,
+                    flexShrink: 0,
                   }}
                 >
                   {'<'}
@@ -76,7 +77,7 @@ export default function Preloader() {
                   component="span"
                   sx={{
                     fontFamily: "'Agustina', cursive",
-                    fontSize: { xs: '2.8rem', sm: '4rem', md: '5rem' },
+                    fontSize: { xs: '2rem', sm: '3.2rem', md: '5rem' },
                     fontWeight: 700,
                     background: 'linear-gradient(135deg, #4f8ef7 0%, #00d4ff 100%)',
                     WebkitBackgroundClip: 'text',
@@ -87,6 +88,7 @@ export default function Preloader() {
                     display: 'inline-block',
                     userSelect: 'none',
                     whiteSpace: 'nowrap',
+                    minWidth: 0,
                   }}
                 >
                   Wasim Akram
@@ -96,10 +98,11 @@ export default function Preloader() {
                   sx={{
                     fontFamily: 'Inter, system-ui, sans-serif',
                     fontWeight: 300,
-                    fontSize: { xs: '1.6rem', sm: '2.2rem', md: '2.8rem' },
+                    fontSize: { xs: '1.1rem', sm: '1.8rem', md: '2.8rem' },
                     color: '#00d4ff',
                     lineHeight: 1,
                     opacity: 0.85,
+                    flexShrink: 0,
                   }}
                 >
                   {'/>'}
