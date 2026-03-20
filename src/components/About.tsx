@@ -167,7 +167,7 @@ export default function About() {
               {/* Highlights */}
               <Box sx={{ mt: 4, display: 'flex', flexWrap: 'wrap', gap: 2 }}>
                 {[
-                  { icon: <CheckCircleOutlineIcon sx={{ fontSize: '1rem', color: '#4f8ef7' }} />, text: '50+ Production Projects' },
+                  { icon: <CheckCircleOutlineIcon sx={{ fontSize: '1rem', color: '#4f8ef7' }} />, text: '60+ Production Projects' },
                   { icon: <LanguageIcon sx={{ fontSize: '1rem', color: '#4f8ef7' }} />, text: 'GCC Region Clients' },
                   { icon: <ArticleIcon sx={{ fontSize: '1rem', color: '#4f8ef7' }} />, text: 'XAI Research Paper' },
                   { icon: <CloudQueueIcon sx={{ fontSize: '1rem', color: '#4f8ef7' }} />, text: 'AWS Cloud Patterns' },

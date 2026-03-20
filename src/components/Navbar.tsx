@@ -112,6 +112,7 @@ export default function Navbar() {
                 py: '4px',
                 overflow: 'visible',
                 gap: 0.3,
+                userSelect: 'none',
               }}
             >
               {/* < bracket */}
@@ -295,7 +296,12 @@ export default function Navbar() {
           }}
         >
           <Box sx={{ p: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Box sx={{ display: 'flex', alignItems: 'center', gap: 0.3 }}>
+            <Box
+              component="button"
+              onClick={() => { setDrawerOpen(false); scrollTo('#home'); }}
+              aria-label="Go to home"
+              sx={{ background: 'none', border: 'none', cursor: 'pointer', display: 'flex', alignItems: 'center', gap: 0.3, p: 0, userSelect: 'none' }}
+            >
               <Typography component="span" sx={{ fontFamily: 'Inter, sans-serif', fontWeight: 300, fontSize: '1.1rem', color: '#00d4ff', opacity: 0.85, lineHeight: 1 }}>{'<'}</Typography>
               <Typography
                 component="span"
@@ -310,6 +316,7 @@ export default function Navbar() {
                   lineHeight: 1.8,
                   display: 'inline-block',
                   mx: 0.4,
+                  userSelect: 'none',
                 }}
               >
                 Wasim Akram

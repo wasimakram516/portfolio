@@ -56,7 +56,10 @@ export default function Footer() {
           {/* Brand */}
           <Box sx={{ textAlign: { xs: 'center', md: 'left' } }}>
             <Box
-              sx={{ display: 'flex', alignItems: 'center', gap: 0.3, justifyContent: { xs: 'center', md: 'flex-start' }, mb: 1 }}
+              component="button"
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              aria-label="Go to top"
+              sx={{ display: 'flex', alignItems: 'center', gap: 0.3, justifyContent: { xs: 'center', md: 'flex-start' }, mb: 1, background: 'none', border: 'none', cursor: 'pointer', p: 0, userSelect: 'none' }}
             >
               <Typography
                 component="span"
@@ -83,6 +86,7 @@ export default function Footer() {
                   WebkitTextFillColor: 'transparent',
                   backgroundClip: 'text',
                   mx: 0.5,
+                  userSelect: 'none',
                 }}
               >
                 Wasim Akram

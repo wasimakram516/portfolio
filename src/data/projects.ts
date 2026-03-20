@@ -22,7 +22,7 @@ export const projects: Project[] = [
     category: 'event',
     categoryLabel: 'Event Platform',
     stack: ['Next.js 15', 'React 19', 'MUI', 'Socket.IO', 'Node.js', 'MongoDB', 'AWS S3'],
-    liveUrl: 'https://eventpass-gray.vercel.app',
+    liveUrl: 'https://eventpass-whitewall.vercel.app',
     githubUrl: 'https://github.com/wasimakram516/eventpass-suite-frontend',
     gradient: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
     iconKey: 'Celebration',
