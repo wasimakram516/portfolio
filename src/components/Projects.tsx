@@ -43,6 +43,13 @@ import WorkIcon from '@mui/icons-material/Work';
 import SchoolIcon from '@mui/icons-material/School';
 import PrintIcon from '@mui/icons-material/Print';
 import ImageIcon from '@mui/icons-material/Image';
+import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
+import MenuBookIcon from '@mui/icons-material/MenuBook';
+import HowToRegIcon from '@mui/icons-material/HowToReg';
+import AppRegistrationIcon from '@mui/icons-material/AppRegistration';
+import LocalCafeIcon from '@mui/icons-material/LocalCafe';
+import ParkIcon from '@mui/icons-material/Park';
+import SelfImprovementIcon from '@mui/icons-material/SelfImprovement';
 import { projects } from '@/data/projects';
 import type { SvgIconProps } from '@mui/material/SvgIcon';
 import { useThemeMode } from '@/components/Providers';
@@ -76,6 +83,14 @@ const iconMap: Record<string, IconComponent> = {
   School: SchoolIcon,
   Print: PrintIcon,
   Image: ImageIcon,
+  Star: StarIcon,
+  PeopleAlt: PeopleAltIcon,
+  MenuBook: MenuBookIcon,
+  HowToReg: HowToRegIcon,
+  AppRegistration: AppRegistrationIcon,
+  LocalCafe: LocalCafeIcon,
+  Park: ParkIcon,
+  SelfImprovement: SelfImprovementIcon,
 };
 
 const filterOptions = [

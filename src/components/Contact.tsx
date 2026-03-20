@@ -19,6 +19,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import EmailIcon from '@mui/icons-material/Email';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import PhoneIcon from '@mui/icons-material/Phone';
 import SendIcon from '@mui/icons-material/Send';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 
@@ -40,6 +41,12 @@ const contactItems = [
     label: 'Email',
     value: 'wasimakram4245@gmail.com',
     href: 'mailto:wasimakram4245@gmail.com',
+  },
+  {
+    icon: <PhoneIcon sx={{ fontSize: 24, color: '#34d399' }} />,
+    label: 'Phone',
+    value: '+92 300 6039278',
+    href: 'tel:+923006039278',
   },
   {
     icon: <LocationOnIcon sx={{ fontSize: 24, color: '#a78bfa' }} />,
