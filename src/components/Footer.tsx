@@ -54,7 +54,7 @@ export default function Footer() {
           }}
         >
           {/* Brand */}
-          <Box sx={{ textAlign: { xs: 'center', md: 'left' } }}>
+          <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: { xs: 'center', md: 'flex-start' } }}>
             <Box
               component="button"
               onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
