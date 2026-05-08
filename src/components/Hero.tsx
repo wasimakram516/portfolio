@@ -21,7 +21,7 @@ import { useThemeMode } from '@/components/Providers';
 
 const stats = [
   { value: 60, suffix: "+", label: "Projects" },
-  { value: 4, suffix: '+', label: 'Years' },
+  { value: 7, suffix: '+', label: 'Years' },
   { value: 10, suffix: '+', label: 'Clients' },
   { value: 1, suffix: '', label: 'Research Paper' },
 ];

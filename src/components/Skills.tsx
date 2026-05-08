@@ -119,7 +119,7 @@ export default function Skills() {
               variant="body1"
               sx={{ color: 'text.secondary', mt: 2, maxWidth: 500, mx: 'auto' }}
             >
-              A comprehensive toolkit built across 4+ years of production engineering
+              A comprehensive toolkit built across 7+ years of production engineering
             </Typography>
           </Box>
         </motion.div>

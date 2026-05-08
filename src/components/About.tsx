@@ -141,7 +141,7 @@ export default function About() {
                 variant="body1"
                 sx={{ color: 'text.secondary', mb: 3, lineHeight: 1.9, fontSize: '1.05rem' }}
               >
-                I&apos;m a Senior Full-Stack Engineer and Technical Lead with 4+ years of experience
+                I&apos;m a Senior Full-Stack Engineer and Technical Lead with 7+ years of experience
                 building production-grade web systems. My work spans real-time event platforms,
                 government digital portals, AI-powered dashboards, and scalable cloud architectures
                 deployed across the GCC region.
