@@ -16,15 +16,20 @@
 }
 
 html {
+  color-scheme: dark;
+  background-color: #060b17;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  color: #f1f5f9;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
   background-attachment: fixed;
+  background: linear-gradient(125deg, #060b17 0%, #0a1628 25%, #060f1e 50%, #0d1a30 75%, #060b17 100%);
+  background-size: 400% 400%;
   animation: bgShift 14s ease-in-out infinite;
 }
 
